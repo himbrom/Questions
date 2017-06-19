@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
+	<head>
 		<title>Lobby</title>
-	</head>
+		<script>
+		function ready(){
+			document.getElementById("demo").style="color: green"
+			document.getElementById("demo").innerHTML = "READY"
+			document.getElementById("demo").setAttribute("onclick", "ready1()")
+			document.getElementById("demo").setAttribute("value", "1")
+			document.getElementById("demo").setAttribute("id", "demo1")		
+		}		
+		function ready1(){
+			document.getElementById("demo1").style="color: blue"
+			document.getElementById("demo1").innerHTML = "ready"
+			document.getElementById("demo1").setAttribute("onclick", "ready()")
+			document.getElementById("demo1").setAttribute("value", "0")
+			document.getElementById("demo1").setAttribute("id", "demo")
+		}	
+		</script>
+	</head>	
 	<body>
 	<center>
 		<h1>Lobby</h1>
-		  <form>
-			  <input type="submit" value=">> I'm ready! <<">
-			  <form action="/q_submit.html">
-		  </form>
+		<button type="button" style="color: blue" onclick="ready()" 		
+id="demo" value=0>ready</button>
 	</center>
 	</body>
-  </html>
+</html>
