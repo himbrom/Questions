@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questions?</title>
+</head>
+<body>
+<center>
+  <h1>Questions?</h1>
+  <hr> <!--thematic break-->
+	  <ul>This Game is:
+		  <li>for up to 5 friends</li>
+		  <li>best played on a couch</li>
+	  </ul>
+  <hr>
+  <p>logged in:</p>
+
+  <TEXTAREA NAME="output" ROWS=5 COLS=16 WRAP VALUE=""></TEXTAREA>
+  <p></p>
+  <hr>
+  <button>>>START<<</button>
+  <hr>
+  <!-- Here goes the 4 letter code-->
+  <p>XXXX</p>
+</center>
+</body>
+</html>
